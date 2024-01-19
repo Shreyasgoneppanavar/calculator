@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(top-view-desk-concept-with-notepad.jpg);
+    background-color: #262323;
+    margin: 2%;
+    padding: 5%;
+}
+
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#display {
+    margin: 10%;
+    height: 100px;
+    width: 300vh;
+    border-radius: 15px;
+    box-shadow: -8px -8px 15px;
+    font-size: 30px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 2%;
+    border-radius: 10%;
+    box-shadow: -8px -8px 15px;
+}
+
+input::placeholder {
+    font-size: 30px;
+    font-weight: bold;
+}
